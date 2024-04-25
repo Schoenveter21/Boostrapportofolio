@@ -8,22 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-info ">
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Achraf's website</a>
+    <a class="navbar-brand text-white" href="index.php">Achraf's website</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Over mij</a>
+          <a class="nav-link active text-white" href="aboutme.php">Over mij</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Projecten
           </a>
           <ul class="dropdown-menu">
@@ -33,7 +30,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Contact</a>
+          <a class="nav-link activet text-white" href="#">Contact</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -46,21 +43,19 @@
 
 <div class="Foto">
   <img class="MijnFoto" src="foto's/MijnFoto.jpg" alt="Achraf's afbeelding" width="1863" height="400">
-  <h1 class="Welkom"> Welkom</h1>
+  <h1 class="Welkom text-white"> Welkom bij mijn website.</h1>
 </div>
 
 <div class="container">
   <div class="row justify-content-center mt-8">
     <div class="col-md-8">
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec auctor mi, et ullamcorper est. Aliquam sodales est mi, eu fringilla ex cursus sit amet. Donec lacinia erat at turpis laoreet tincidunt. Sed vestibulum, nulla sed placerat dignissim, ipsum lorem lacinia erat, id posuere ante neque quis felis. Cras feugiat eros vel diam aliquam, a mattis magna hendrerit. Etiam consectetur purus sed metus dignissim, vel laoreet arcu sagittis. Vivamus sodales feugiat ex, nec sagittis ipsum facilisis non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam ut felis mi. Aliquam quis tempor lacus, vitae eleifend velit. Etiam pulvinar orci viverra pharetra scelerisque.
-
-Sed ultricies enim quis tellus tempus condimentum. Donec lobortis pharetra urna. Etiam aliquam libero sit amet dolor consequat, nec ullamcorper quam bibendum. Pellentesque condimentum sed ipsum eget pulvinar. Mauris porta libero mattis, porttitor sem nec, efficitur massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu porttitor diam. Morbi quis sodales turpis, vel gravida massa. Proin at purus cursus, rutrum odio eu, pretium urna. In lacinia justo at magna condimentum, id euismod felis pulvinar. Vestibulum pellentesque posuere nisi. Nullam sollicitudin orci euismod, aliquet lorem nec, dignissim ipsum.
-Nulla urna ipsum, dictum id orci ac, lobortis luctus diam. Integer semper massa sed magna interdum rhoncus sit amet ac ante. Proin pellentesque porta dui, sit amet interdum enim convallis id. Nam vulputate est dapibus, elementum diam aliquam, porta risus. Integer imperdiet urna ut pharetra pretium. Nulla sit amet erat eget odio fringilla mollis. Praesent vitae tempus magna. Suspendisse ultricies odio turpis, eu egestas nunc gravida in. Etiam eu scelerisque justo. Sed iaculis justo vel mi commodo finibus. Sed facilisis, sem quis laoreet maximus, sapien arcu scelerisque turpis, quis blandit eros nunc sollicitudin dolor.</p>
-
+      <p class="text-left text-center-md">Welkom bij mijn website! Ik ben een enthousiaste Achraf, gepassioneerd over alles punt webontwikkelaar en creatief. Deze website is mijn persoonlijke portfolio, hier deel ik mijn projecten, ervaringen en wat me bezighoudt.<br><br> In het gedeelte “Over mij” kun je meer informatie vinden over mijn geschiedenis, vaardigheden en wat ik graag doe als webontwikkelaar. Ik ben een voorstander van groei en geloof dat ontwikkelen altijd moet doorgaan. Daarom leer ik graag meer allerlei nieuwe technologieën en verbeter ik mijn vaardigheden.<br><br> Onder het kopje “Projecten” kunnen mijn recente en meest interessante webontwikkelingswerken worden gevonden. Of het nu projecten zijn waarbij dynamische websites, e-commerce-platforms of webapplicaties zijn betrokken, ik ben altijd blij om uitdagende projecten uit te proberen en mijn creativiteit te uiten. <br><br> 
+      Neem gewoon de tijd om door mijn projecten te bladeren en om te lezen wat ik allemaal heb gemaakt. Als je vragen hebt of interesse hebt om samen te werken, neem dan zeker contact met me op via het contactformulier. Ik ben altijd geïnteresseerd in nieuwe kansen en samenwerkingsverbanden. Dank je wel voor het bezoeken van mijn site en ik hoop dat je geniet van al mijn werk verkennen! </p>
     </div>
   </div>
 </div>
-<footer class="footer mt-auto py-3 bg-dark">
+
+<footer class="footer mt-auto py-3">
   <div class="container2 text-center">
     <span class="text-light">© 2024 Achraf's Website</span>
   </div>
