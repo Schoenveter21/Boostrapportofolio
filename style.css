@@ -1,8 +1,12 @@
+body {
+    overflow-x: hidden;
+}
 .navbar {
     position: sticky;
     top: 0;
     z-index: 1000; /* Zorg ervoor dat de navbar boven andere elementen blijft */
     background-color: black;
+    width: 100vw;
 }
 .dropdown-menu {
     background-color: gray; /* Jouw gewenste kleur */
@@ -19,7 +23,7 @@
 
 .Welkom{
     position: absolute;
-    bottom: 500px;
+    bottom: 465px;
     left: 50px;
     -webkit-text-stroke-width: 1.2px;
     -webkit-text-stroke-color: black;
