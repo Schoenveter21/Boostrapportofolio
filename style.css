@@ -1,0 +1,28 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Zorg ervoor dat de navbar boven andere elementen blijft */
+}
+.dropdown-menu {
+    background-color: aquamarine; /* Jouw gewenste kleur */
+}
+.dropdown-menu :hover {
+    background-color: rgb(107, 214, 178); /* Jouw gewenste kleur */
+}
+.container {
+    margin-top: 100px;
+    padding: 20px; /* Voeg wat padding toe om ruimte rond de tekst te creëren */
+    border: 1px solid black; /* Voeg een rand toe om de vierkante vorm te benadrukken */
+    border-radius: 10px; /* Maak de hoeken van de container afgerond */
+}
+
+.Welkom{
+    position: absolute;
+    bottom: 500px;
+}
+.footer{
+    border: none;
+}
+.container2{
+    margin-bottom: 100px;
+}
