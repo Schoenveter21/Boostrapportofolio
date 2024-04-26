@@ -5,7 +5,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000; /* Zorg ervoor dat de navbar boven andere elementen blijft */
-    background-color: black;
+    background-color: #242424;
     width: 100vw;
 }
 .dropdown-menu {
@@ -15,10 +15,11 @@ body {
     background-color: rgb(84, 84, 84); /* Jouw gewenste kleur */
 }
 .container {
+    background-color: #f2f2f2;
     margin-top: 100px;
     padding: 20px; /* Voeg wat padding toe om ruimte rond de tekst te creëren */
     border: 1px solid black; /* Voeg een rand toe om de vierkante vorm te benadrukken */
-    border-radius: 10px; /* Maak de hoeken van de container afgerond */
+    border-radius: 10px; /* Maak de hoeken van de container afgerond */  
 }
 
 .Welkom{
@@ -32,7 +33,7 @@ body {
 
 .footer{
     border: none;
-    background-color: black;
+    background-color: #242424;
 }
 .container2{
     margin-bottom: 100px;
