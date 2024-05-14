@@ -48,3 +48,18 @@ body {
     width: auto;
     margin-left: 27vw;
 }
+.MijnUnityFoto{
+    height: 44vh;
+    width: auto;
+    margin-left: 33vw; 
+}
+.Unity1{
+    margin-left: -100px; /* Pas de gewenste negatieve marge aan */
+
+}
+
+.Unity2{
+    margin-left: -100px; /* Pas de gewenste negatieve marge aan */
+    width: 56vw;
+    height: auto;
+}
