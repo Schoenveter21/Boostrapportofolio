@@ -1,12 +1,13 @@
 body {
     overflow-x: hidden;
+    margin: 0;
 }
 .navbar {
     position: sticky;
     top: 0;
     z-index: 1000; /* Zorg ervoor dat de navbar boven andere elementen blijft */
     background-color: #242424;
-    width: 100vw;
+    width: 100%;
 }
 .dropdown-menu {
     background-color: gray; /* Jouw gewenste kleur */
@@ -28,12 +29,12 @@ body {
     left: 50px;
     -webkit-text-stroke-width: 1.2px;
     -webkit-text-stroke-color: black;
-  
 }
 
 .footer{
     border: none;
     background-color: #242424;
+    
 }
 .container2{
     margin-bottom: 100px;
@@ -89,6 +90,7 @@ body {
     height: 400px;
     height: 50px;
     outline: none;
+    border: none;
     padding-left: 25px;
     font-weight: 500;
     color: rgb(168, 168, 168);
@@ -99,8 +101,8 @@ body {
     padding-top: 15px;
     border-radius: 20px;
 }
-.contact-input :focus{
-    border: 2px solid black;
+.contact-input:focus{
+    border: 3px solid black;
 }
 .contactleft button{
     display: flex;
@@ -113,4 +115,84 @@ body {
     border-radius: 50px;
     background: linear-gradient(270deg,white,black);
     cursor: pointer;
+}
+
+
+
+/* Media queries voor responsief ontwerp */
+@media (max-width: 1300px) {
+    .nav-link {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .container2 {
+        text-align: center;
+    }
+
+    .Foto {
+        background-color: rgb(168, 168, 168);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MijnFoto {
+        height: 30vh;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .Welkom {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .navbar-toggler-icon {
+        background-color: white; /* Voeg een achtergrondkleur toe om de hamburgerlijnen zichtbaar te maken */
+    }
+    .footer{
+        bottom: 0%;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar {
+        position: sticky;
+        width: 100vw;
+    }
+    .Welkom {
+        text-align: center;
+        margin-left: 0;
+    }
+    .MijnFoto {
+        height: 10vh;
+        width: auto;
+        margin-left: 0;
+    }
+    .navbar-toggler-icon {
+        background-color: white; /* Voeg een achtergrondkleur toe om de hamburgerlijnen zichtbaar te maken */
+    }
+
+    .navbar-toggler {
+        border: none; /* Verwijder de standaardrand van de hamburgerknop */
+    }
+    .Foto {
+        flex-direction: column;
+        
+    }
+
+    .MijnFoto {
+        height: 30vh;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .container {
+        margin: 0 10px;
+    }
 }
