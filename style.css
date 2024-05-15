@@ -73,3 +73,44 @@ body {
     width: 56vw;
     height: auto;
 }
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.contactleft{
+    margin-top: -350px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-input{
+    height: 400px;
+    height: 50px;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: rgb(168, 168, 168);
+    border-radius: 50px;
+}
+.contactleft textarea{
+    height: 200px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-input :focus{
+    border: 2px solid black;
+}
+.contactleft button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 20px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,white,black);
+    cursor: pointer;
+}
