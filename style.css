@@ -8,6 +8,7 @@ body {
     z-index: 1000; /* Zorg ervoor dat de navbar boven andere elementen blijft */
     background-color: #242424;
     width: 100%;
+    
 }
 .dropdown-menu {
     background-color: gray; /* Jouw gewenste kleur */
@@ -77,17 +78,17 @@ body {
 .contact-container{
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: center;   
 }
 .contactleft{
-    margin-top: -350px;
+    margin-top: -250px;
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 20px;
+    gap: 20px;  
 }
 .contact-input{
-    height: 400px;
+    width: 500px;
     height: 50px;
     outline: none;
     border: none;
@@ -95,9 +96,13 @@ body {
     font-weight: 500;
     color: rgb(168, 168, 168);
     border-radius: 50px;
+    
+    
+    
 }
 .contactleft textarea{
-    height: 200px;
+    height: 400px;
+    width: 500px;
     padding-top: 15px;
     border-radius: 20px;
 }
@@ -113,14 +118,16 @@ body {
     gap: 20px;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(270deg,white,black);
+    background: linear-gradient(250deg,black,white);
     cursor: pointer;
 }
 
 
 
 /* Media queries voor responsief ontwerp */
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
+
+
     .nav-link {
         text-align: center;
         padding: 10px;
@@ -135,17 +142,22 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
 
     .MijnFoto {
-        height: 30vh;
-        width: auto;
+        height: auto;
+        width: 98.4vw;
         margin-left: 0;
     }
 
     .Welkom {
         position: static;
         margin-top: 20px;
+    }
+    .contactleft{
+        margin-top: -320px;
+
     }
 
     .container {
@@ -160,7 +172,7 @@ body {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 800px) {
     .navbar {
         position: sticky;
         width: 100vw;
@@ -182,17 +194,73 @@ body {
         border: none; /* Verwijder de standaardrand van de hamburgerknop */
     }
     .Foto {
-        flex-direction: column;
-        
+        flex-direction: column;  
     }
 
     .MijnFoto {
-        height: 30vh;
+        height: 15vh;
+        width: auto;
+        margin-left: 0;
+    }
+    .contactleft{
+        margin-top: -320px;
+
+    }
+    .contact-input {
+        width: 90vw; /* Pas de breedte van de invoervelden aan */
+        height: 50px; /* Pas de hoogte van de invoervelden aan */
+        font-size: 14px; /* Pas de lettergrootte aan */
+        
+    }
+
+    .contactleft textarea {
+        width: 100%; /* Pas de breedte van het tekstgebied aan */
+        height: 200px; /* Pas de hoogte van het tekstgebied aan */
+        font-size: 14px; /* Pas de lettergrootte aan */
+    }
+
+    .contactleft button {
+        padding: 10px 20px; /* Pas de padding van de knop aan */
+        font-size: 14px; /* Pas de lettergrootte aan */
+    }
+
+
+}
+@media (max-width: 769px) {
+    
+    .MijnFoto {
+        height: 20vh;
         width: auto;
         margin-left: 0;
     }
 
-    .container {
-        margin: 0 10px;
+    .Welkom {
+        bottom: 355px;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
+
+    .contactleft{
+        margin-top: -450px;
+
+    }
+    .contact-input {
+        width: 370px; /* Pas de breedte van de invoervelden aan */
+        height: 50px; /* Pas de hoogte van de invoervelden aan */
+        font-size: 14px; /* Pas de lettergrootte aan */
+        
+    }
+
+    .contactleft textarea {
+        width: 100%; /* Pas de breedte van het tekstgebied aan */
+        height: 200px; /* Pas de hoogte van het tekstgebied aan */
+        font-size: 14px; /* Pas de lettergrootte aan */
+    }
+
+    .contactleft button {
+        padding: 10px 20px; /* Pas de padding van de knop aan */
+        font-size: 14px; /* Pas de lettergrootte aan */
+    }
+
 }
