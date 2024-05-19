@@ -150,6 +150,48 @@ body {
         width: 98.4vw;
         margin-left: 0;
     }
+    .MijnUnityFoto{
+        width: 100vw;
+        height: auto;
+        margin-right: 200px;
+    }
+    .Unity1{
+        width: 80vw;
+        height: auto;
+        margin-left: 25px;
+    
+    }
+    .Unity2{
+
+        margin-left: 25px;
+    
+    }
+    .Web1{
+        height: auto;
+        width: 60vw;
+        margin-left: -15px;
+    
+    }
+    .Web2{
+        height: auto;
+        width: 60vw;
+        margin-left: -15px;
+    
+    }
+    .App1{
+        height: auto;
+        width: 70vw;
+        margin-left: -15px;
+    
+    }
+    .App2{
+        height: auto;
+        width: 70vw;
+        margin-left: -15px;
+    
+    }
+
+
 
     .Welkom {
         position: static;
@@ -161,12 +203,13 @@ body {
     }
 
     .container {
-        margin: 0 auto;
-        padding: 20px;
+        margin: 20px 0px 20px 40px;
+  
     }
     .navbar-toggler-icon {
-        background-color: white; /* Voeg een achtergrondkleur toe om de hamburgerlijnen zichtbaar te maken */
-    }
+        background-color: #242424; /* Voeg een achtergrondkleur toe om de hamburgerlijnen zichtbaar te maken */
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+     }
     .footer{
         bottom: 0%;
     }
@@ -186,9 +229,52 @@ body {
         width: auto;
         margin-left: 0;
     }
-    .navbar-toggler-icon {
-        background-color: white; /* Voeg een achtergrondkleur toe om de hamburgerlijnen zichtbaar te maken */
+    .MijnUnityFoto{
+        width: 60vw;
+        height: auto;
+        margin-right: 115px;
     }
+    .Unity1{
+        width: 80vw;
+        height: auto;
+        margin-left: 25px;
+    
+    }
+    .Unity2{
+
+        margin-left: 25px;
+    
+    }
+    .Web1{
+        height: auto;
+        width: 90vw;
+        margin-left: -15px;
+    
+    }
+    .Web2{
+        height: auto;
+        width: 90vw;
+        margin-left: -15px;
+    
+    }
+    .App1{
+        height: auto;
+        width: 80vw;
+        margin-left: -15px;
+    
+    }
+    .App2{
+        height: auto;
+        width: 80vw;
+        margin-left: -15px;
+    
+    }
+    .navbar-toggler-icon {
+        background-color: #242424; /* Voeg een achtergrondkleur toe om de hamburgerlijnen zichtbaar te maken */
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+     }
 
     .navbar-toggler {
         border: none; /* Verwijder de standaardrand van de hamburgerknop */
@@ -201,6 +287,11 @@ body {
         height: 15vh;
         width: auto;
         margin-left: 0;
+    }
+    .Unity1{
+        width: 80vw;
+        height: auto;
+    
     }
     .contactleft{
         margin-top: -320px;
@@ -223,6 +314,10 @@ body {
         padding: 10px 20px; /* Pas de padding van de knop aan */
         font-size: 14px; /* Pas de lettergrootte aan */
     }
+    .container {
+        margin: 20px 0px 20px 0px;
+  
+    }
 
 
 }
@@ -240,6 +335,13 @@ body {
         right: 0;
         margin: auto;
     }
+    .Unity1{
+        width: 80vw;
+        height: auto;
+        
+    
+    }
+    
 
     .contactleft{
         margin-top: -450px;
