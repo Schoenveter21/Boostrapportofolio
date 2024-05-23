@@ -225,7 +225,7 @@ body {
         margin-left: 0;
     }
     .MijnFoto {
-        height: 10vh;
+        height: 20vh;
         width: auto;
         margin-left: 0;
     }
@@ -235,7 +235,7 @@ body {
         margin-right: 115px;
     }
     .Unity1{
-        width: 80vw;
+        width: 50vw;
         height: auto;
         margin-left: 25px;
     
@@ -247,25 +247,25 @@ body {
     }
     .Web1{
         height: auto;
-        width: 90vw;
+        width: 70vw;
         margin-left: -15px;
     
     }
     .Web2{
         height: auto;
-        width: 90vw;
+        width: 70vw;
         margin-left: -15px;
     
     }
     .App1{
         height: auto;
-        width: 80vw;
+        width: 70vw;
         margin-left: -15px;
     
     }
     .App2{
         height: auto;
-        width: 80vw;
+        width: 70vw;
         margin-left: -15px;
     
     }
@@ -283,29 +283,19 @@ body {
         flex-direction: column;  
     }
 
-    .MijnFoto {
-        height: 15vh;
-        width: auto;
-        margin-left: 0;
-    }
-    .Unity1{
-        width: 80vw;
-        height: auto;
-    
-    }
     .contactleft{
-        margin-top: -320px;
+        margin-top: -400px;
 
     }
     .contact-input {
-        width: 90vw; /* Pas de breedte van de invoervelden aan */
+        width: 70vw; /* Pas de breedte van de invoervelden aan */
         height: 50px; /* Pas de hoogte van de invoervelden aan */
         font-size: 14px; /* Pas de lettergrootte aan */
         
     }
 
     .contactleft textarea {
-        width: 100%; /* Pas de breedte van het tekstgebied aan */
+        width: 540px; /* Pas de breedte van het tekstgebied aan */
         height: 200px; /* Pas de hoogte van het tekstgebied aan */
         font-size: 14px; /* Pas de lettergrootte aan */
     }
@@ -321,48 +311,14 @@ body {
 
 
 }
-@media (max-width: 769px) {
-    
-    .MijnFoto {
-        height: 20vh;
-        width: auto;
-        margin-left: 0;
-    }
 
-    .Welkom {
-        bottom: 355px;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-    .Unity1{
-        width: 80vw;
-        height: auto;
-        
-    
-    }
-    
-
-    .contactleft{
-        margin-top: -450px;
-
-    }
-    .contact-input {
-        width: 370px; /* Pas de breedte van de invoervelden aan */
-        height: 50px; /* Pas de hoogte van de invoervelden aan */
-        font-size: 14px; /* Pas de lettergrootte aan */
-        
-    }
-
+@media (max-width: 425px) {
     .contactleft textarea {
-        width: 100%; /* Pas de breedte van het tekstgebied aan */
+        width: 300px; /* Pas de breedte van het tekstgebied aan */
         height: 200px; /* Pas de hoogte van het tekstgebied aan */
         font-size: 14px; /* Pas de lettergrootte aan */
     }
 
-    .contactleft button {
-        padding: 10px 20px; /* Pas de padding van de knop aan */
-        font-size: 14px; /* Pas de lettergrootte aan */
-    }
 
 }
+
